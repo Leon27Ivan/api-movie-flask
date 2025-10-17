@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  movie-api:
+    build: .
+    container_name: movie-api
+    ports:
+      - "8000:8000"
